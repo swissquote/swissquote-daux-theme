@@ -203,7 +203,7 @@
     gulp-plumber "1.2.1"
     vinyl-fs "^3.0.0"
 
-"@swissquote/crafty@1.7.3", "@swissquote/crafty@^1.0.1":
+"@swissquote/crafty@1.7.3":
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.7.3.tgz#f3d87f6b006d314a53ee72beb12560a7d901cab3"
   integrity sha512-/guUx9RLJmpfWyYT7YRtHduUDC7uWa8LgGU4J1p02cqjAu4z8+zNX6yIwMPdcPdweX/kbmdhmj87HzgjXVGZvg==
@@ -222,6 +222,26 @@
     tmp "0.1.0"
     undertaker "1.2.1"
     yargs-parser "^13.1.0"
+
+"@swissquote/crafty@^1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.8.0.tgz#090ca25abfb29b8a6fd4b430580b60687669373f"
+  integrity sha512-qp0kX/q5IjMSP6LeEkM0zDf/6Dt1bHwnPgC+coS1RqvpvTzqi2+at1LzgMjrvSKsQR4Hq95hGhILktR1mg2d2w==
+  dependencies:
+    ansi-colors "^4.0.0"
+    browserslist "4.7.0"
+    camelcase-keys "^6.0.0"
+    debug "^4.1.0"
+    enhanced-resolve "4.1.0"
+    fancy-log "1.3.3"
+    find-up "^4.0.0"
+    glob-watcher "5.0.3"
+    loud-rejection "^2.1.0"
+    merge "1.2.1"
+    pretty-hrtime "1.0.3"
+    tmp "0.1.0"
+    undertaker "1.2.1"
+    yargs-parser "^14.0.0"
 
 "@swissquote/postcss-swissquote-preset@1.7.3":
   version "1.7.3"
@@ -999,7 +1019,7 @@ browserify-zlib@^0.2.0:
   dependencies:
     pako "~1.0.5"
 
-browserslist@4.6.3, browserslist@^4.0.0, browserslist@^4.0.1, browserslist@^4.1.1, browserslist@^4.3.6, browserslist@^4.6.1:
+browserslist@4.6.3:
   version "4.6.3"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.6.3.tgz#0530cbc6ab0c1f3fc8c819c72377ba55cf647f05"
   integrity sha512-CNBqTCq22RKM8wKJNowcqihHJ4SkI8CGeK7KOR9tPboXUuS5Zk5lQgzzTbs4oxD8x+6HUshZUa2OyNI9lR93bQ==
@@ -1007,6 +1027,15 @@ browserslist@4.6.3, browserslist@^4.0.0, browserslist@^4.0.1, browserslist@^4.1.
     caniuse-lite "^1.0.30000975"
     electron-to-chromium "^1.3.164"
     node-releases "^1.1.23"
+
+browserslist@4.7.0, browserslist@^4.0.0, browserslist@^4.0.1, browserslist@^4.1.1, browserslist@^4.3.6, browserslist@^4.6.1:
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.7.0.tgz#9ee89225ffc07db03409f2fee524dc8227458a17"
+  integrity sha512-9rGNDtnj+HaahxiVV38Gn8n8Lr8REKsel68v1sPFfIGEK6uSXTY3h9acgiT1dZVtOOUtifo/Dn8daDQ5dUgVsA==
+  dependencies:
+    caniuse-lite "^1.0.30000989"
+    electron-to-chromium "^1.3.247"
+    node-releases "^1.1.29"
 
 buffer-equal@^1.0.0:
   version "1.0.0"
@@ -1180,6 +1209,11 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000865, caniuse-lite@^1.0.30000887, can
   version "1.0.30000978"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000978.tgz#1e3346c27fc46bce9ac1ccd77863153a263dde56"
   integrity sha512-H6gK6kxUzG6oAwg/Jal279z8pHw0BzrpZfwo/CA9FFm/vA0l8IhDfkZtepyJNE2Y4V6Dp3P3ubz6czby1/Mgsw==
+
+caniuse-lite@^1.0.30000989:
+  version "1.0.30000989"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000989.tgz#b9193e293ccf7e4426c5245134b8f2a56c0ac4b9"
+  integrity sha512-vrMcvSuMz16YY6GSVZ0dWDTJP8jqk3iFQ/Aq5iqblPwxSVVZI+zxDyTX0VPqtQsDnfdrBDcsmhgTEOh5R8Lbpw==
 
 ccount@^1.0.0:
   version "1.0.4"
@@ -1884,6 +1918,11 @@ electron-to-chromium@^1.3.164:
   version "1.3.174"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.174.tgz#011c68d4130e995cbb69c533e147d7f4856e9f39"
   integrity sha512-OEh3EARo2B07ZRtxB0u9GqWyWmTeNS+diMp5bjw4kqMjgpzqM0w1zUOyErDsyWxTdArbvZ79T/w5n3WsBVHLfA==
+
+electron-to-chromium@^1.3.247:
+  version "1.3.256"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.256.tgz#7f680d5f04df8e2bd9cb9758026d70f5ff1808a9"
+  integrity sha512-GHY1r2mO56BRMng6rkxxJvsWKtqy9k/IlSBrAV/VKwZKpTydVUJnOwajTNnl5uutJpthHgZy+HeofK5K6PqEgQ==
 
 elliptic@^6.0.0:
   version "6.5.0"
@@ -3710,6 +3749,13 @@ node-releases@^1.1.23:
   version "1.1.23"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.23.tgz#de7409f72de044a2fa59c097f436ba89c39997f0"
   integrity sha512-uq1iL79YjfYC0WXoHbC/z28q/9pOl8kSHaXdWmAAc8No+bDwqkZbzIJz55g/MUsPgSGm9LZ7QSUbzTcH5tz47w==
+  dependencies:
+    semver "^5.3.0"
+
+node-releases@^1.1.29:
+  version "1.1.30"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.30.tgz#35eebf129c63baeb6d8ddeda3c35b05abfd37f7f"
+  integrity sha512-BHcr1g6NeUH12IL+X3Flvs4IOnl1TL0JczUhEZjDE+FXXPQcVCNr8NEPb01zqGxzhTpdyJL5GXemaCW7aw6Khw==
   dependencies:
     semver "^5.3.0"
 
@@ -6288,6 +6334,14 @@ yargs-parser@^13.1.0:
   version "13.1.1"
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.1.1.tgz#d26058532aa06d365fe091f6a1fc06b2f7e5eca0"
   integrity sha512-oVAVsHz6uFrg3XQheFII8ESO2ssAf9luWuAd6Wexsu4F3OtIW0o8IribPXYrD4WC24LWtPrJlGy87y5udK+dxQ==
+  dependencies:
+    camelcase "^5.0.0"
+    decamelize "^1.2.0"
+
+yargs-parser@^14.0.0:
+  version "14.0.0"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-14.0.0.tgz#42e25777b06718ec99eac2c3a98ad3de73b6818f"
+  integrity sha512-zn/Mnx+tbFjkCFUodEpjXckNS65NfpB5oyqOkDDEG/8uxlfLZJu2IoBLQFjukUkn9rBbGkVYNzrDh6qy4NUd3g==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
