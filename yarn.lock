@@ -168,7 +168,7 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@swissquote/crafty-preset-postcss@^1.9.1":
+"@swissquote/crafty-preset-postcss@1.9.1":
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-postcss/-/crafty-preset-postcss-1.9.1.tgz#8d33e2786079a73d88d56393f1d112917cf93534"
   integrity sha512-eeJcdwqqrWLufRA8JT4gUM/3GO02fJUrxmHvu+hgIL82NLv2/jHYERRTJFZJkUQQys8EeHt/XKX7cGLrtObcyA==
@@ -199,7 +199,7 @@
   resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-prettier/-/crafty-preset-prettier-1.9.1.tgz#052f8f9abd8e1e566ea67f3b845ca4b3d143ef17"
   integrity sha512-1vnI/R+kHudDObvPzPZguaUjtcdju4+E/yAc3iw0TtxCGIqWH3DqecCGiuiTVk0/2SwE1NYd+ILqb2pFmnSxXQ==
 
-"@swissquote/crafty-runner-gulp@^1.9.1":
+"@swissquote/crafty-runner-gulp@1.9.1":
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@swissquote/crafty-runner-gulp/-/crafty-runner-gulp-1.9.1.tgz#65df548ac53035260b93473980031b1b3a5eec59"
   integrity sha512-uUl6r5QFGXk0GMHDbKGVORdvJ88YWcZeOXZBDqBehQfj8fIIX9GY/GSH+oQT47wL+Un5Eq0oHUTEf4zLeKykwA==
@@ -210,7 +210,7 @@
     gulp-plumber "1.2.1"
     vinyl-fs "^3.0.0"
 
-"@swissquote/crafty@1.9.1", "@swissquote/crafty@^1.0.1":
+"@swissquote/crafty@1.9.1":
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.9.1.tgz#e3c0f2080fd9f0420dbf69f75992f7f4ce8f3b70"
   integrity sha512-XOpCIvWKUKkx9zO6qRFLCkGSriFfJGvqRaK0j539r3+TQp46CAeXYol5nb8pfwInJbU2wo27FiJC9achDxmMIw==
