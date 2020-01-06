@@ -3,5 +3,5 @@
     "config:base",
     "group:allNonMajor"
   ],
-  "schedule": "Monday"
+  "schedule": "before 9pm on Monday"
 }
