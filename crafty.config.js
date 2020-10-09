@@ -4,14 +4,13 @@ module.exports = {
         "@swissquote/crafty-preset-postcss",
         "@swissquote/crafty-runner-gulp"
     ],
-    destination_css: 'css',
+    destination_css: 'theme/swissquote/css',
     css: {
         theme: {
-            source: 'sass/theme.scss',
-            watch: ['sass/**/*.scss']
+            source: 'css/theme.scss',
+            watch: ['css/**/*.scss']
         }
     },
-    stylelint_pattern: ["sass/**/*.scss"],
     stylelint: {
         rules: {
             "indentation": null,
