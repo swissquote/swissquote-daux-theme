@@ -231,15 +231,15 @@
     remark "^13.0.0"
     unist-util-find-all-after "^3.0.2"
 
-"@swissquote/crafty-preset-postcss@1.17.1":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-postcss/-/crafty-preset-postcss-1.17.1.tgz#8e34f02eba3f25703a8390f2284f778c027365c3"
-  integrity sha512-jcC3YOwygOv0JzBM8zc5d//svsCmN9Lg8m6FvPtDteBfoPXVuqHHHWuogGhgPdjH+ZiqX0ii5+9Sg6DoP+QO/Q==
+"@swissquote/crafty-preset-postcss@1.17.2":
+  version "1.17.2"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-postcss/-/crafty-preset-postcss-1.17.2.tgz#21168deaa5ce7b2c6e81f3ec8f1579b9330fdf19"
+  integrity sha512-MIBBOtr7whcuSA2ibmQT0kaCLYgVeJA/HEXRu0BJJKviXg1k2swbr0LYtqd/m1gFhuYuyNEJoRheoKz74bGHYw==
   dependencies:
-    "@swissquote/crafty-preset-prettier" "1.17.1"
-    "@swissquote/postcss-swissquote-preset" "1.17.1"
-    "@swissquote/stylelint-config-swissquote" "1.17.1"
-    css-loader "6.4.0"
+    "@swissquote/crafty-preset-prettier" "1.17.2"
+    "@swissquote/postcss-swissquote-preset" "1.17.2"
+    "@swissquote/stylelint-config-swissquote" "1.17.2"
+    css-loader "6.5.0"
     end-of-stream "1.4.4"
     gulp-postcss "8.0.0"
     gulp-rename "2.0.0"
@@ -255,27 +255,27 @@
     stylelint "13.13.1"
     through2 "4.0.2"
     tmp "0.2.1"
-    webpack "5.60.0"
+    webpack "5.61.0"
 
-"@swissquote/crafty-preset-prettier@1.17.1":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-prettier/-/crafty-preset-prettier-1.17.1.tgz#3112c72fad57f3244a2f8dfb5ae789dbc8e78a22"
-  integrity sha512-L3mF6wKqAVoP4XPfJIODaBtGs4H+J6h08laiAL1+rZ0On6xz71qmrstLmVyEav9DrbSX6xpt6Ms0qhLRM62ZiQ==
+"@swissquote/crafty-preset-prettier@1.17.2":
+  version "1.17.2"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-prettier/-/crafty-preset-prettier-1.17.2.tgz#9eb5c46fe5d4798bfefddf381f2d02e59132d5eb"
+  integrity sha512-63CTj8vSJzdpL5vSdrEzwlngqo5yEpt716gj7JooCi8TzJ3/ZaZYh1ZyZCcZNv39ClLabvdCRNFRQguP07xWmA==
 
-"@swissquote/crafty-runner-gulp@1.17.1":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-runner-gulp/-/crafty-runner-gulp-1.17.1.tgz#f1049f410942a22f75f191ce49ced6a166024f3d"
-  integrity sha512-6JnNls0fsy7dxAfhSsFNoSh3a7YwkzDqbB66/LtoymFRBdAt/D03LgbJ5txWUIgVck4rH7l24a3WwdeWebTEgg==
+"@swissquote/crafty-runner-gulp@1.17.2":
+  version "1.17.2"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-runner-gulp/-/crafty-runner-gulp-1.17.2.tgz#6ac427715591912cd8fc2df6d1e94bcca951e64e"
+  integrity sha512-MsKrjJnXJ0UFilSGFpQNhhnHfvcOurdJqIsw4L5z8Cmd9ayLdwvLDVEfh7+spe8/mevcp9w5N6ZqN/0vwMwL9A==
   dependencies:
-    "@swissquote/crafty" "1.17.1"
+    "@swissquote/crafty" "1.17.2"
     debug "^4.1.0"
     gulp-plumber "1.2.1"
     vinyl-fs "3.0.3"
 
-"@swissquote/crafty@1.17.1":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.17.1.tgz#5dc98cdb143f35ec948f7efa690aaf58bcd783b1"
-  integrity sha512-kx74FGsEhhIsY8Uar5KpRgfZJtLJTC7bgZb/uAkwS0H6u8PFJUjES6bKeH77CcFK5KLK8RETsmxAxaT1y9v1MQ==
+"@swissquote/crafty@1.17.2":
+  version "1.17.2"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.17.2.tgz#596446ba93ea395769b9165c1ffbb309a24d36a3"
+  integrity sha512-lL8L+MmP5FDuFRVcZs6uZR46r/ZlgKjSPwsKDpeG/oFjoa0YWm+AZkRqmgvOvJCX02em+UMa4be9OJ1OU+cuGw==
   dependencies:
     ansi-colors "^4.0.0"
     anymatch "3.1.2"
@@ -297,10 +297,10 @@
     undertaker "1.3.0"
     yargs-parser "20.2.9"
 
-"@swissquote/postcss-swissquote-preset@1.17.1":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@swissquote/postcss-swissquote-preset/-/postcss-swissquote-preset-1.17.1.tgz#7cf5247b73c4cb2cc71e4d86dfc475c98ac87856"
-  integrity sha512-kz9yY8oRjDKhGGULMnotStsUWNniS37HNj93WjOS4EqB4D3qAbyNZBiTCnDFU7vBrTvs7yRnHpS7ydfP7sqtZQ==
+"@swissquote/postcss-swissquote-preset@1.17.2":
+  version "1.17.2"
+  resolved "https://registry.yarnpkg.com/@swissquote/postcss-swissquote-preset/-/postcss-swissquote-preset-1.17.2.tgz#da02c8efce2b69f67d5182890f9a02b39129808b"
+  integrity sha512-lmT7GySBo46I+fJHNXl+SBjn7PxFyHTNAAt6XMROocOrj9OWx4aS6bfn5M5U76/Ri696K89xEwK12z7RFM9K4A==
   dependencies:
     browserslist "4.17.5"
     caniuse-api "3.0.0"
@@ -308,10 +308,10 @@
     postcss "7.0.39"
     postcss-assets "5.0.0"
 
-"@swissquote/stylelint-config-swissquote@1.17.1":
-  version "1.17.1"
-  resolved "https://registry.yarnpkg.com/@swissquote/stylelint-config-swissquote/-/stylelint-config-swissquote-1.17.1.tgz#dbe070bb1ddbf43351c8dd4d8ee12808c0bea3fb"
-  integrity sha512-D+jQNDAzGJEEF0vwv1+RAwewX8XPU/7FUwfg/tNGXmPkjO9b6sDbPtmMH6yh+UhG4qKoAuF/zkQkMlSjQNhnpw==
+"@swissquote/stylelint-config-swissquote@1.17.2":
+  version "1.17.2"
+  resolved "https://registry.yarnpkg.com/@swissquote/stylelint-config-swissquote/-/stylelint-config-swissquote-1.17.2.tgz#4492b3d3259e74d3e72b550b814cbf0ab3b61506"
+  integrity sha512-iBFfXvws/326tw1oxzCZc4PjHvrGU97Z4uULILRWV9JxsL95BBFa6Eq3jsadTTYaRYDBhHlcAgx7VVI3WPgsFg==
   dependencies:
     postcss-resolve-nested-selector "0.1.1"
     postcss-scss "2.1.1"
@@ -1255,10 +1255,10 @@ cosmiconfig@^7.0.0:
     path-type "^4.0.0"
     yaml "^1.10.0"
 
-css-loader@6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-6.4.0.tgz#01c57ea776024e18ca193428dcad3ff6b42a0130"
-  integrity sha512-Dlt6qfsxI/w1vU0r8qDd4BtMPxWqJeY5qQU7SmmZfvbpe6Xl18McO4GhyaMLns24Y2VNPiZwJPQ8JSbg4qvQLw==
+css-loader@6.5.0:
+  version "6.5.0"
+  resolved "https://registry.yarnpkg.com/css-loader/-/css-loader-6.5.0.tgz#9d1cf7766a9a8f0b3c6e1638309b964dbdab46d3"
+  integrity sha512-VmuSdQa3K+wJsl39i7X3qGBM5+ZHmtTnv65fqMGI+fzmHoYmszTVvTqC1XN8JwWDViCB1a8wgNim5SV4fb37xg==
   dependencies:
     icss-utils "^5.1.0"
     postcss "^8.2.15"
@@ -4299,10 +4299,10 @@ webpack-sources@^3.2.0:
   resolved "https://registry.yarnpkg.com/webpack-sources/-/webpack-sources-3.2.1.tgz#251a7d9720d75ada1469ca07dbb62f3641a05b6d"
   integrity sha512-t6BMVLQ0AkjBOoRTZgqrWm7xbXMBzD+XDq2EZ96+vMfn3qKgsvdXZhbPZ4ElUOpdv4u+iiGe+w3+J75iy/bYGA==
 
-webpack@5.60.0:
-  version "5.60.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.60.0.tgz#9c26f38a57c9688b0a8c5c885e05197344eae67d"
-  integrity sha512-OL5GDYi2dKxnwJPSOg2tODgzDxAffN0osgWkZaBo/l3ikCxDFP+tuJT3uF7GyBE3SDBpKML/+a8EobyWAQO3DQ==
+webpack@5.61.0:
+  version "5.61.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-5.61.0.tgz#fa827f0ee9bdfd141dd73c3e891e955ebd52fe7f"
+  integrity sha512-fPdTuaYZ/GMGFm4WrPi2KRCqS1vDp773kj9S0iI5Uc//5cszsFEDgHNaX4Rj1vobUiU1dFIV3mA9k1eHeluFpw==
   dependencies:
     "@types/eslint-scope" "^3.7.0"
     "@types/estree" "^0.0.50"
