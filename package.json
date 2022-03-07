@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@swissquote/crafty": "1.17.2",
-    "@swissquote/crafty-preset-postcss": "1.17.2",
-    "@swissquote/crafty-runner-gulp": "1.17.2"
+    "@swissquote/crafty": "1.18.4",
+    "@swissquote/crafty-preset-postcss": "1.18.4",
+    "@swissquote/crafty-runner-gulp": "1.18.4"
   },
   "scripts": {
     "build": "crafty run",
