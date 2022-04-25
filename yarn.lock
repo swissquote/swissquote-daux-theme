@@ -79,78 +79,78 @@
     "@parcel/css-linux-x64-musl" "1.8.1"
     "@parcel/css-win32-x64-msvc" "1.8.1"
 
-"@swissquote/crafty-commons-gulp@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-commons-gulp/-/crafty-commons-gulp-1.19.0.tgz#e8f5bcc4ed2cd2277b3410f4bbe6d534eab2916f"
-  integrity sha512-8SxKUI/yOHWkyDpxFEFTkdIyFwGaICkwJQzP/dKNNsxtlDwVg/Vp7GHQ9MykYNJ/RHGvN8HztWTP8JZwF7EihQ==
+"@swissquote/crafty-commons-gulp@1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-commons-gulp/-/crafty-commons-gulp-1.19.1.tgz#b92e7b5344222fd7d9503fc61880672cbaeec7f2"
+  integrity sha512-wOGdqbjfH4dlDwceXREsakzW9VY7p6fsKJ+faMkrN9DzMopv00JS/gLYFQ2T4NnO8Vb77RuHLZbTvQTaTxJHLw==
   dependencies:
-    "@swissquote/crafty-commons" "1.19.0"
+    "@swissquote/crafty-commons" "1.19.1"
 
-"@swissquote/crafty-commons@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-commons/-/crafty-commons-1.19.0.tgz#5991a1803992a01264469860060880e6bfb9772f"
-  integrity sha512-ruO/tdBvAZ13pTL95U9fpzaNp0QnDBmi/A8vcjuzDBVtb7EgNyNytxJ0ZgnUXCVl4R7WNL5MjCZhlNwtgpz/iw==
+"@swissquote/crafty-commons@1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-commons/-/crafty-commons-1.19.1.tgz#f39fc124aab073315561f2abeb2fcca79d9f19c7"
+  integrity sha512-bQsN71vP7/Az8p0Q6EQV19Yel9k5ZCYcseTdXRRGISZSJWVPd8h/EonYQxEGpVQKhsv0F8Q9w4pz5ZJf9UQPOg==
   dependencies:
     caniuse-lite "^1.0.30001319"
 
-"@swissquote/crafty-preset-postcss@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-postcss/-/crafty-preset-postcss-1.19.0.tgz#2ad0ec334c0f5ea363e436a5a489e84e667a6431"
-  integrity sha512-6w9G1IyHVWEy6VYMrTniOcuaFGlp0Msl4Bg4byQmvKCmF+6SY3/Nef/5kSfxG0wE06xb8Ogxg3PDW4CxZp8qUQ==
+"@swissquote/crafty-preset-postcss@1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-postcss/-/crafty-preset-postcss-1.19.1.tgz#b375c97f2ea8862a5b06ce9f4482787e084d47a2"
+  integrity sha512-GDvfNtXBWmlXS87fbUsvMVaT8rXU+z8vG3YWoXOcj6BiBY21itzPuD1lJWvhaJDTWS35p5bRv4i9Ts1QrogcRQ==
   dependencies:
     "@babel/code-frame" "7.16.7"
-    "@swissquote/crafty" "1.19.0"
-    "@swissquote/crafty-commons" "1.19.0"
-    "@swissquote/crafty-commons-gulp" "1.19.0"
-    "@swissquote/crafty-preset-prettier" "1.19.0"
-    "@swissquote/postcss-swissquote-preset" "1.19.0"
-    "@swissquote/stylelint-config-swissquote" "1.19.0"
+    "@swissquote/crafty" "1.19.1"
+    "@swissquote/crafty-commons" "1.19.1"
+    "@swissquote/crafty-commons-gulp" "1.19.1"
+    "@swissquote/crafty-preset-prettier" "1.19.1"
+    "@swissquote/postcss-swissquote-preset" "1.19.1"
+    "@swissquote/stylelint-config-swissquote" "1.19.1"
     mini-css-extract-plugin "2.6.0"
     postcss "8.4.12"
-    postcss-scss "4.0.3"
+    postcss-scss "4.0.4"
     schema-utils "4.0.0"
 
-"@swissquote/crafty-preset-prettier@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-prettier/-/crafty-preset-prettier-1.19.0.tgz#0bdc7c5c1643b4b4ea312e65efbade10352a91c3"
-  integrity sha512-yrhN5upeNWfTG+NHY0uef5j7MtcVj6FRtWvd+hD7geIuQi1+Tiiky2RJbD/48nslnEQJX4dOsyA0pt4cp0lyJQ==
+"@swissquote/crafty-preset-prettier@1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-prettier/-/crafty-preset-prettier-1.19.1.tgz#3970abd788a243b65adf26e6c5374f6f312f51a1"
+  integrity sha512-qkxGkvanioy5qHeaAzk/LTTIZFkFl143ikZ0Izyxld3e23GdSITPdk4Vp65u9176/7fTDjMyNXBUXOWR+nWOHA==
 
-"@swissquote/crafty-runner-gulp@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-runner-gulp/-/crafty-runner-gulp-1.19.0.tgz#60a2598e4ff1ae57bf9b560438b3940bfe3ecb74"
-  integrity sha512-Yryhdmry5jFs/+DoHDkJ1tCOnxE4ZuthcxnmExCF4MUWDzYTzhklgg8XuKccNQYe3HnxWtEcoOzChtBsHA7Omw==
+"@swissquote/crafty-runner-gulp@1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-runner-gulp/-/crafty-runner-gulp-1.19.1.tgz#93af58d19053a069fe9a1a446aee42ad138a3d56"
+  integrity sha512-DtydiR50M0a7EMB2X07s/wdQ6sbV5q1YVFL0q4w2XLOHkdcdQYYzhJgmeA1hI1NXhDhYWSEyC0meOGsW+YrLjA==
   dependencies:
-    "@swissquote/crafty" "1.19.0"
-    "@swissquote/crafty-commons" "1.19.0"
-    "@swissquote/crafty-commons-gulp" "1.19.0"
+    "@swissquote/crafty" "1.19.1"
+    "@swissquote/crafty-commons" "1.19.1"
+    "@swissquote/crafty-commons-gulp" "1.19.1"
 
-"@swissquote/crafty@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.19.0.tgz#a5bc9a3cf800d973424800fd7e04ee50e6a00b87"
-  integrity sha512-4zLkKcUQlTA6+gGmPnj5I7KdGnrueqif0rc0tf7Uxub5KOMkU4wQGxjq9D6gHJqVRCpJREnnwWaWaJ8XhdwsPg==
+"@swissquote/crafty@1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.19.1.tgz#81dba6a769baa6ca808897d2369f7aa1c962dd2a"
+  integrity sha512-Y0i7IkZt8RWhKMR223l7HVDLg+I3BqCeQSht50WyZBaIsXYw4dvL6wBdvQVvDNFeb3Qx6+c11ztKmzXl5OP9mg==
   dependencies:
-    "@swissquote/crafty-commons" "1.19.0"
+    "@swissquote/crafty-commons" "1.19.1"
   optionalDependencies:
     fsevents "~2.3.2"
 
-"@swissquote/postcss-swissquote-preset@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@swissquote/postcss-swissquote-preset/-/postcss-swissquote-preset-1.19.0.tgz#7c3a130f293af3aad0daa61c6fc455487f2d21a6"
-  integrity sha512-RiEy5rWC48DQ160X9bUD73Xwau+sy4QzXQiS6E6FTLCNMsLN+1/UoZIMcCeoVoebMsmdR5vq74Znuzk0z99nKA==
+"@swissquote/postcss-swissquote-preset@1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@swissquote/postcss-swissquote-preset/-/postcss-swissquote-preset-1.19.1.tgz#6049ccbbfab9da4c9a19c687085193279f5bfe90"
+  integrity sha512-9omm7nAmH/YARCOORqeslUh2It6T9RB9g50MT4EfSEZUzRr47afo+SbkRmnOue8jRIZ7QdBFc7Z9nPhtXPbwug==
   dependencies:
     "@parcel/css" "1.8.1"
-    "@swissquote/crafty-commons" "1.19.0"
+    "@swissquote/crafty-commons" "1.19.1"
     caniuse-lite "^1.0.30001319"
     postcss "8.4.12"
 
-"@swissquote/stylelint-config-swissquote@1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@swissquote/stylelint-config-swissquote/-/stylelint-config-swissquote-1.19.0.tgz#077cfa1fad9076f75951164271a25a7b9e1cbc44"
-  integrity sha512-45oE3lcxulWlcjgV985qfQI1LeSCDviZJSi08E4workzC/8u8O1d8srn4vFYD2UQguKO5QykaVL3UGpYdmvhXg==
+"@swissquote/stylelint-config-swissquote@1.19.1":
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/@swissquote/stylelint-config-swissquote/-/stylelint-config-swissquote-1.19.1.tgz#c37ea8c83358ead6589c29ca93803efec946af29"
+  integrity sha512-wzFbp3lgx718zshRQailW/l7p99RibtyQfplCllbWGgJmHdLg/C3LKs0AV5PRmIWJatRky95mBc80c41skZtDg==
   dependencies:
-    "@swissquote/crafty" "1.19.0"
+    "@swissquote/crafty" "1.19.1"
     caniuse-lite "^1.0.30001319"
-    postcss-scss "4.0.3"
+    postcss-scss "4.0.4"
 
 "@types/json-schema@^7.0.9":
   version "7.0.9"
@@ -266,10 +266,10 @@ picocolors@^1.0.0:
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
-postcss-scss@4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-4.0.3.tgz#36c23c19a804274e722e83a54d20b838ab4767ac"
-  integrity sha512-j4KxzWovfdHsyxwl1BxkUal/O4uirvHgdzMKS1aWJBAV0qh2qj5qAZqpeBfVUYGWv+4iK9Az7SPyZ4fyNju1uA==
+postcss-scss@4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-4.0.4.tgz#aa8f60e19ee18259bc193db9e4b96edfce3f3b1f"
+  integrity sha512-aBBbVyzA8b3hUL0MGrpydxxXKXFZc5Eqva0Q3V9qsBOLEMsjb6w49WfpsoWzpEgcqJGW4t7Rio8WXVU9Gd8vWg==
 
 postcss@8.4.12:
   version "8.4.12"
