@@ -1,4 +1,4 @@
-@import "/Users/onigoetz/Sites/Libs/daux.io/src/css/theme_daux/theme.scss";
+@import "../../daux.io/src/css/theme_daux/theme.scss";
 
 //Daux.io Swissquote Theme
 :root {
@@ -16,7 +16,14 @@
     --homepage-hero-color: #fff;
     --hero-button-block-background: var(--lighter-gray);
 
+    --hero-button-primary-border-color: var(--primary-color);
+    --hero-buttom-primary-background: var(--primary-color);
+
+    --hero-button-secondary-color: var(--primary-color);
+    --hero-button-secondary-border-color: var(--primary-color);
+
     --homepage-navbar-background: #fff;
+    --homepage-bullet-color: var(--primary-color);
     --brand-color: var(--primary-color);
     --brand-background: #fff;
 
@@ -126,8 +133,25 @@
     border-top: 1px solid var(--search-field-border-color);
 }
 
+.SearchResults__url a {
+    color: var(--primary-color) !important;
+}
+
+.SearchResults__url a:hover {
+    color: var(--primary-color) !important;
+    text-decoration: underline;
+}
+
+.SearchResults {
+    position: fixed !important;
+}
+
 .SearchResults .Search__field {
     border-top-width: 0;
+}
+
+.SearchResultsBackdrop {
+    position: fixed !important;
 }
 
 .Navbar .Container {
