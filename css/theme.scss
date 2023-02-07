@@ -2,35 +2,61 @@
 
 //Daux.io Swissquote Theme
 :root {
-    --primary-color: #fa5b35;
-    --primary-color-light: color(var(--primary-color) blend(#ddd 20%));
-    --primary-color-lighter: color(var(--primary-color) blend(#fff 30%));
+    --color-primary: #fa5b35;
+    --color-primary-light: color(var(--color-primary) blend(#ddd 20%));
+    --color-primary-lighter: color(var(--color-primary) blend(#fff 30%));
+
+    --color-secondary: var(--color-primary-light);
 
     --sidebar-background: #f7f7f7;
     --sidebar-link-active-background: var(--lighter-gray);
-    --dark: var(--primary-color);
-    --light: var(--primary-color-lighter);
+    --dark: var(--color-primary);
+    --light: var(--color-primary-lighter);
 
-    --link-color: var(--primary-color);
-    --homepage-hero-background: var(--primary-color-lighter);
+    --link-color: var(--color-primary);
+    --homepage-hero-background: var(--color-primary-lighter);
     --homepage-hero-color: #fff;
     --hero-button-block-background: var(--lighter-gray);
 
-    --hero-button-primary-border-color: var(--primary-color);
-    --hero-buttom-primary-background: var(--primary-color);
-
-    --hero-button-secondary-color: var(--primary-color);
-    --hero-button-secondary-border-color: var(--primary-color);
+    --hero-button-primary-border-color: var(--color-primary);
+    --hero-buttom-primary-background: var(--color-primary);
+    --hero-button-secondary-color: var(--color-primary);
+    --hero-button-secondary-border-color: var(--color-primary);
 
     --homepage-navbar-background: #fff;
-    --homepage-bullet-color: var(--primary-color);
-    --brand-color: var(--primary-color);
-    --brand-background: #fff;
+    --brand-color: var(--color-primary);
+    --brand-background: var(--homepage-navbar-background);
 
     --homepage-footer-color: var(--dark);
     --homepage-footer-background: var(--lightest-gray);
 
     --border-radius: 6px;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.dark {
+    --color-text: #fff;
+    --sidebar-background: #000;
+    --sidebar-link-active-background: var(--dark-gray);
+    --sidebar-link-color: var(--color-primary);
+
+    --homepage-navbar-background: var(--color-secondary);
+    --brand-background: var(--homepage-navbar-background);
+    --brand-color: #fff;
+
+    --hero-button-primary-border-color: #fff;
+    --hero-buttom-primary-background: #fff;
+    --hero-button-secondary-color: #fff;
+    --hero-button-secondary-border-color: #fff;
+
+    --search-field-color: #555;
+    --search-field-border-color: var(--color-primary);
+    --search-field-background: #fff;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.dark .HomepageFooter__links a {
+    color: white;
 }
 
 .Brand {
@@ -63,8 +89,8 @@
 }
 
 .TableOfContentsContainer {
-    color: var(--dark-gray);
-    background-color: #fff;
+    color: var(--sidebar-link-secondary-color);
+    background-color: var(--sidebar-background);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: var(--border-radius);
     padding: 0 !important;
@@ -86,7 +112,7 @@
         color: #fff;
         font-family: var(--font-family-text);
         font-size: var(--type-size-5);
-        background: var(--primary-color-light);
+        background: var(--color-primary-light);
         border-bottom-width: 0;
         border-top-left-radius: calc(var(--border-radius) - 1px);
         border-top-right-radius: calc(var(--border-radius) - 1px);
@@ -109,14 +135,14 @@
     }
 
     a {
-        color: var(--dark-gray);
+        color: var(--sidebar-link-secondary-color);
         border-bottom-color: var(--lightest-gray);
         padding: 0.3em 0 0.3em 0.75em !important;
     }
 
     a:hover {
-        color: #000;
-        background: var(--lightest-gray);
+        color: var(--sidebar-link-secondary-color);
+        background: var(--sidebar-link-hover-background);
         text-decoration: underline;
     }
 
@@ -134,11 +160,11 @@
 }
 
 .SearchResults__url a {
-    color: var(--primary-color) !important;
+    color: var(--color-primary) !important;
 }
 
 .SearchResults__url a:hover {
-    color: var(--primary-color) !important;
+    color: var(--color-primary) !important;
     text-decoration: underline;
 }
 
