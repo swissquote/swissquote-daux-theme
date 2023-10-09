@@ -2,112 +2,113 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@7.21.4":
-  version "7.21.4"
-  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.21.4.tgz#d0fa9e4413aca81f2b23b9442797bda1826edb39"
-  integrity sha512-LYvhNKfwWSPpocw8GI7gpK2nq3HSDuEPC/uSYaALSJu9xjsalaaYFOq0Pwt5KmVqwEbZlDu81aLXwBOmD/Fv9g==
+"@babel/code-frame@7.22.13":
+  version "7.22.13"
+  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.22.13.tgz#e3c1c099402598483b7a8c46a721d1038803755e"
+  integrity sha512-XktuhWlJ5g+3TJXc5upd9Ks1HutSArik6jf2eAjYFyIOf4ej3RN+184cZbzDvbPnuTJIUhPKKJE3cIsYTiAT3w==
   dependencies:
-    "@babel/highlight" "^7.18.6"
+    "@babel/highlight" "^7.22.13"
+    chalk "^2.4.2"
 
-"@babel/helper-validator-identifier@^7.18.6":
-  version "7.19.1"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.19.1.tgz#7eea834cf32901ffdc1a7ee555e2f9c27e249ca2"
-  integrity sha512-awrNfaMtnHUr653GgGEs++LlAvW6w+DcPrOliSMXWCKo597CwL5Acf/wWdNkf/tfEQE3mjkeD1YOVZOUV/od1w==
+"@babel/helper-validator-identifier@^7.22.20":
+  version "7.22.20"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.20.tgz#c4ae002c61d2879e724581d96665583dbc1dc0e0"
+  integrity sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==
 
-"@babel/highlight@^7.18.6":
-  version "7.18.6"
-  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.18.6.tgz#81158601e93e2563795adcbfbdf5d64be3f2ecdf"
-  integrity sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==
+"@babel/highlight@^7.22.13":
+  version "7.22.20"
+  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.22.20.tgz#4ca92b71d80554b01427815e06f2df965b9c1f54"
+  integrity sha512-dkdMCN3py0+ksCgYmGG8jKeGA/8Tk+gJwSYYlFGxG5lmhfKNoAy004YpLxpS1W2J8m/EK2Ew+yOs9pVRwO89mg==
   dependencies:
-    "@babel/helper-validator-identifier" "^7.18.6"
-    chalk "^2.0.0"
+    "@babel/helper-validator-identifier" "^7.22.20"
+    chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@swissquote/crafty-commons-gulp@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-commons-gulp/-/crafty-commons-gulp-1.22.3.tgz#1dd8f9bf53a143d9e681c4eb73302a59583657fa"
-  integrity sha512-XuaEQpRfBYMuTe0AuZaiQpUKcdZy045iqap7tfG5vEhigSzGyKTRetsMUkxqjblM28ukpWdyftiqqE8pQ+hMnw==
+"@swissquote/crafty-commons-gulp@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-commons-gulp/-/crafty-commons-gulp-1.23.0.tgz#dfa519be759bf8b28a4a97681147bcc0f1881d60"
+  integrity sha512-zuuseih36osoWQV6MM1ha8ZFpBhVIxOJdOsVsBOZcnEVorwLtwWlcyWLrpcEudrFLrGYkxF3SgnLFPx6/eYqQA==
   dependencies:
-    "@swissquote/crafty-commons" "1.22.3"
+    "@swissquote/crafty-commons" "1.23.0"
 
-"@swissquote/crafty-commons@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-commons/-/crafty-commons-1.22.3.tgz#bbec8dbf1a7e2853b473189e2ec0dffd0cbf3d96"
-  integrity sha512-LFj4lBdC5YhweVaGRGrzienhsQpUuOh9rmc4MbdyUm8/3RSJIC0vevl3FLEOtE5shsByXtWzr1ofS6/sPK9fjw==
+"@swissquote/crafty-commons@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-commons/-/crafty-commons-1.23.0.tgz#089b2e8d5310d94f922ccd13839a630be628af3d"
+  integrity sha512-+IzrbmPlC+vl99WJWLpuiBpoCTx+/wuG86108HKsm6dwf2/C45QaxCXQYpJxLT0WO+jHekqG32TDe712a1hpvA==
   dependencies:
-    caniuse-lite "^1.0.30001478"
+    caniuse-lite "^1.0.30001542"
 
-"@swissquote/crafty-preset-postcss@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-postcss/-/crafty-preset-postcss-1.22.3.tgz#806118378f71e932a670b898b4bd5c19fe7f9d7b"
-  integrity sha512-MQb9qX+muaOnDvkrg+05NM8FBidszwRjpJXM980sTuL96uGfsBoUSWe0d6XXA3QKS0LcJL6C8dNJbeQwrsuPWg==
+"@swissquote/crafty-preset-postcss@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-postcss/-/crafty-preset-postcss-1.23.0.tgz#98df1325cb64b097cad8ef82d925d4c4ee95d2b8"
+  integrity sha512-csMi8QIRoJTLD5ZXD15GwhQUW76m2gibzy95SWvonjyBhYw5WKTO0XAVVK7HXwbMKjobQXXc7WErden8mnpM9Q==
   dependencies:
-    "@babel/code-frame" "7.21.4"
-    "@swissquote/crafty" "1.22.3"
-    "@swissquote/crafty-commons" "1.22.3"
-    "@swissquote/crafty-commons-gulp" "1.22.3"
-    "@swissquote/crafty-preset-stylelint" "1.22.3"
-    "@swissquote/postcss-swissquote-preset" "1.22.3"
-    mini-css-extract-plugin "2.7.5"
-    postcss "8.4.23"
-    postcss-scss "4.0.6"
-    schema-utils "4.0.1"
+    "@babel/code-frame" "7.22.13"
+    "@swissquote/crafty" "1.23.0"
+    "@swissquote/crafty-commons" "1.23.0"
+    "@swissquote/crafty-commons-gulp" "1.23.0"
+    "@swissquote/crafty-preset-stylelint" "1.23.0"
+    "@swissquote/postcss-swissquote-preset" "1.23.0"
+    mini-css-extract-plugin "2.7.6"
+    postcss "8.4.31"
+    postcss-scss "4.0.9"
+    schema-utils "4.2.0"
 
-"@swissquote/crafty-preset-prettier@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-prettier/-/crafty-preset-prettier-1.22.3.tgz#f4d31c4bb03858c7142ee919d5cb38f3d7a073cd"
-  integrity sha512-1wHcT3z//nrUsie60KYZdusTzY5IU8jAjJV4Eevjvpc6V7jSsROS/hWe0W6Ja1nvgBx48cXMmHT+4Ap25T/Spw==
+"@swissquote/crafty-preset-prettier@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-prettier/-/crafty-preset-prettier-1.23.0.tgz#34236c983db7b7270732d49e3038297e4d337f9d"
+  integrity sha512-Zc7Xyv7axOCQRxUn32iCtZMVFHy+0Y0uJV8G30fXt4UR26EpXROB4OQLYegBnHqd28xtU3KmAQy3wOjTm5lZog==
 
-"@swissquote/crafty-preset-stylelint@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-stylelint/-/crafty-preset-stylelint-1.22.3.tgz#1e1eff6783f4b00e83ced2dd7dc53ab3fada1b92"
-  integrity sha512-RazRdTz2TunODaiJTN0NSkP2J7Q1KYY0nuMas5k18ph230wZF9n7WcLcoCjk/wUG8yJQ79pOFtV/O24YR0gihQ==
+"@swissquote/crafty-preset-stylelint@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-preset-stylelint/-/crafty-preset-stylelint-1.23.0.tgz#d98f3fad53b18d7d857198afeeaa0e61d2469dec"
+  integrity sha512-mI4CS3MbRH27mzAg3j29J2n2JKBQFRC5rZ6U1dq9LZDG50UXkNESES3W9wRIs6lch104g+ajnX1LzqES8ruNdQ==
   dependencies:
-    "@babel/code-frame" "7.21.4"
-    "@swissquote/crafty" "1.22.3"
-    "@swissquote/crafty-commons" "1.22.3"
-    "@swissquote/crafty-commons-gulp" "1.22.3"
-    "@swissquote/crafty-preset-prettier" "1.22.3"
-    "@swissquote/stylelint-config-swissquote" "1.22.3"
-    postcss "8.4.23"
-    postcss-scss "4.0.6"
+    "@babel/code-frame" "7.22.13"
+    "@swissquote/crafty" "1.23.0"
+    "@swissquote/crafty-commons" "1.23.0"
+    "@swissquote/crafty-commons-gulp" "1.23.0"
+    "@swissquote/crafty-preset-prettier" "1.23.0"
+    "@swissquote/stylelint-config-swissquote" "1.23.0"
+    postcss "8.4.31"
+    postcss-scss "4.0.9"
 
-"@swissquote/crafty-runner-gulp@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty-runner-gulp/-/crafty-runner-gulp-1.22.3.tgz#44b27f4b0b246b9bf44591d94efdec1a3bb72046"
-  integrity sha512-l1ifuODXece57gQBZh5LKrUttgK3HCJdPXcbvurzpwfApaE3u0H5XJ/XU+joLyt9FA4gR8scCDaNR57p9rvxXw==
+"@swissquote/crafty-runner-gulp@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty-runner-gulp/-/crafty-runner-gulp-1.23.0.tgz#2fb6793b79ec3a572ec41d91faf0416c3f0dbb5a"
+  integrity sha512-Ue3/wmsNsjCWRe45RO+1pMSm/AbPEduSTzvsqb79C4sQn0oq7RT9GdClBbLui76nxdSHw81jB1NJTsRoHT9MOw==
   dependencies:
-    "@swissquote/crafty" "1.22.3"
-    "@swissquote/crafty-commons" "1.22.3"
-    "@swissquote/crafty-commons-gulp" "1.22.3"
+    "@swissquote/crafty" "1.23.0"
+    "@swissquote/crafty-commons" "1.23.0"
+    "@swissquote/crafty-commons-gulp" "1.23.0"
 
-"@swissquote/crafty@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.22.3.tgz#e8a4af1247756866631e2902b7bd82d90b42822f"
-  integrity sha512-RSrT1ErUmmrOE3zKIychCSHGcU3KPm5L09DiNjiPAs9ZvAvKzRuaL1yHqzROweJAYIoSVq3jApf+MiqLsDSTCA==
+"@swissquote/crafty@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/crafty/-/crafty-1.23.0.tgz#78318125e9a3735cfba27055de9628a282acff4d"
+  integrity sha512-qPnBm3jvM8PfKVKDCzpOLZ84MWLFHRaDpV70A5CY2xbG+YFqP4x33ZzRPMVFefjBzVRch5PyIWuCUU+yxBAb/w==
   dependencies:
-    "@swissquote/crafty-commons" "1.22.3"
+    "@swissquote/crafty-commons" "1.23.0"
   optionalDependencies:
-    fsevents "~2.3.2"
+    fsevents "~2.3.3"
 
-"@swissquote/postcss-swissquote-preset@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/postcss-swissquote-preset/-/postcss-swissquote-preset-1.22.3.tgz#b1dea629fe8ad4753a0a7bdd9da49ddab4d1f3ab"
-  integrity sha512-fRpTLJCEXqGbR5UGu6jMKDnmS/JG+UFgWBWgPRfGmCeefgrZSuGiT9SAN2IsfT0Tbe0goeZoUgwWvZb3wtJNrQ==
+"@swissquote/postcss-swissquote-preset@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/postcss-swissquote-preset/-/postcss-swissquote-preset-1.23.0.tgz#393c8ffd6debe9146f9ad4a27f7c82d15b8a123b"
+  integrity sha512-QIoAjroUg+PYXKeTQfKzNicUpfvq5MKmaRo64aeSPeZ8liQLCeXSF9QFXkOb72rEycMqqFrrN5xjgTx8VtCjKA==
   dependencies:
-    "@swissquote/crafty-commons" "1.22.3"
-    caniuse-lite "^1.0.30001478"
-    lightningcss "1.20.0"
-    postcss "8.4.23"
+    "@swissquote/crafty-commons" "1.23.0"
+    caniuse-lite "^1.0.30001542"
+    lightningcss "1.22.0"
+    postcss "8.4.31"
 
-"@swissquote/stylelint-config-swissquote@1.22.3":
-  version "1.22.3"
-  resolved "https://registry.yarnpkg.com/@swissquote/stylelint-config-swissquote/-/stylelint-config-swissquote-1.22.3.tgz#ff28247b2d3ec3502607035a52bca3c86bf441fb"
-  integrity sha512-BvT+BqxyfjrDZJnaICpgBiYcGIiJAQTWkDrwSlu9MpPA94hj+oJwOnYIk7glMFp0PhEluvMbhOTpZ5zb2OlsaA==
+"@swissquote/stylelint-config-swissquote@1.23.0":
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/@swissquote/stylelint-config-swissquote/-/stylelint-config-swissquote-1.23.0.tgz#2b7a7d2db998c23dcf60255ab056da8e9df2cdf6"
+  integrity sha512-GxtI3jsN6vPQruxMZk2vUGQOnvDL8k34WcxfGUgVpmAQkq22rkq9ztR4CJKPpDwf6uB3OW1X6nz1CJTp8/8dnQ==
   dependencies:
-    "@swissquote/crafty" "1.22.3"
-    caniuse-lite "^1.0.30001478"
-    postcss-scss "4.0.6"
+    "@swissquote/crafty" "1.23.0"
+    caniuse-lite "^1.0.30001542"
+    postcss-scss "4.0.9"
 
 "@types/json-schema@^7.0.9":
   version "7.0.11"
@@ -145,12 +146,12 @@ ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-caniuse-lite@^1.0.30001478:
-  version "1.0.30001479"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001479.tgz#ef3d6f76011e44181af411fd4896123afbc14eda"
-  integrity sha512-6nuRFim5dx8Eu2tO+KJ9PiBdPHs7WB5Hdf+klDcyefyEuOAcfhihIv7pS+JFknJLUiNQbm1AJYKm0c9QOlQS/Q==
+caniuse-lite@^1.0.30001542:
+  version "1.0.30001546"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001546.tgz#10fdad03436cfe3cc632d3af7a99a0fb497407f0"
+  integrity sha512-zvtSJwuQFpewSyRrI3AsftF6rM0X80mZkChIt1spBGEvRglCrjTniXvinc8JKRoqTwXAgvqTImaN9igfSMtUBw==
 
-chalk@^2.0.0:
+chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -186,10 +187,10 @@ fast-deep-equal@^3.1.1, fast-deep-equal@^3.1.3:
   resolved "https://registry.yarnpkg.com/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz#3a7d56b559d6cbc3eb512325244e619a65c6c525"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
-fsevents@~2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
-  integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
+fsevents@~2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 has-flag@^3.0.0:
   version "3.0.0"
@@ -206,66 +207,72 @@ json-schema-traverse@^1.0.0:
   resolved "https://registry.yarnpkg.com/json-schema-traverse/-/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
-lightningcss-darwin-arm64@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.20.0.tgz#0416a0cb840944ea4aee972df02491c0168a784c"
-  integrity sha512-aYEohJTlzwB8URJaNiS57tMbjyLub0mYvxlxKQk8SZv+irXx6MoBWpDNQKKTS9gg1pGf/eAwjpa3BLAoCBsh1A==
+lightningcss-darwin-arm64@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.22.0.tgz#28e189ce15290b3d0ab43704fc33e8e6366e6df4"
+  integrity sha512-aH2be3nNny+It5YEVm8tBSSdRlBVWQV8m2oJ7dESiYRzyY/E/bQUe2xlw5caaMuhlM9aoTMtOH25yzMhir0qPg==
 
-lightningcss-darwin-x64@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.20.0.tgz#4caa2b38fe223eabb32ebc3e1268a6b09e6b8d06"
-  integrity sha512-cmMgY8FFWVaGgtift7eKKkHMqlz9O09/yTdlCXEDOeDP9yeo6vHOBTRP7ojb368kjw8Ew3l0L2uT1Gtx56eNkg==
+lightningcss-darwin-x64@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.22.0.tgz#1c5fe3e3ab31c9f1741f6d5d650ab683bd942854"
+  integrity sha512-9KHRFA0Y6mNxRHeoQMp0YaI0R0O2kOgUlYPRjuasU4d+pI8NRhVn9bt0yX9VPs5ibWX1RbDViSPtGJvYYrfVAQ==
 
-lightningcss-linux-arm-gnueabihf@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.20.0.tgz#3e999a07aa77c10a06c9dda9b507c7a737f8521f"
-  integrity sha512-/m+NDO1O6JCv7R9F0XWlXcintQHx4MPNU+kt8jZJO07LLdGwCfvjN31GVcwVPlStnnx/cU8uTTmax6g/Qu/whg==
+lightningcss-freebsd-x64@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.22.0.tgz#1ee7bcb68258b2cb1425bdc7ccb632233eae639c"
+  integrity sha512-xaYL3xperGwD85rQioDb52ozF3NAJb+9wrge3jD9lxGffplu0Mn35rXMptB8Uc2N9Mw1i3Bvl7+z1evlqVl7ww==
 
-lightningcss-linux-arm64-gnu@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.20.0.tgz#8b7786936ea462f744a85038fb033cc56049b677"
-  integrity sha512-gtXoa6v0HvMRLbev6Hsef0+Q5He7NslB+Rs7G49Y5LUSdJeGIATEN+j8JzHC0DnxCsOGbEgGRmvtJzzYDkkluw==
+lightningcss-linux-arm-gnueabihf@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.22.0.tgz#1c4287ec7268dcee6d9dcccb3d0810ecdcd35b74"
+  integrity sha512-epQGvXIjOuxrZpMpMnRjK54ZqzhiHhCPLtHvw2fb6NeK2kK9YtF0wqmeTBiQ1AkbWfnnXGTstYaFNiadNK+StQ==
 
-lightningcss-linux-arm64-musl@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.20.0.tgz#8d812309c4e70398cee79fcdc452548ca521a6eb"
-  integrity sha512-Po7XpucM1kZnkiyd2BNwTExSDcZ8jm8uB9u+Sq44qjpkf5f75jreQwn3DQm9I1t5C6tB9HGt30HExMju9umJBQ==
+lightningcss-linux-arm64-gnu@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.22.0.tgz#b8e6daee4a60020a4930fc3564669868e723a10d"
+  integrity sha512-AArGtKSY4DGTA8xP8SDyNyKtpsUl1Rzq6FW4JomeyUQ4nBrR71uPChksTpj3gmWuGhZeRKLeCUI1DBid/zhChg==
 
-lightningcss-linux-x64-gnu@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.20.0.tgz#7652fbb26e50a5fa21b763aaebdb4bc657540c7e"
-  integrity sha512-8yR/fGNn/P0I+Lc3PK+VWPET/zdSpBfHFIG0DJ38TywMbItVKvnFvoTBwnIm4LqBz7g2G2dDexnNP95za2Ll8g==
+lightningcss-linux-arm64-musl@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.22.0.tgz#8d863a5470ee50369f13974325f2a3326b5f77df"
+  integrity sha512-RRraNgP8hnBPhInTTUdlFm+z16C/ghbxBG51Sw00hd7HUyKmEUKRozyc5od+/N6pOrX/bIh5vIbtMXIxsos0lg==
 
-lightningcss-linux-x64-musl@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.20.0.tgz#aa21957fc51c363b4436e973911d01af4bed3c35"
-  integrity sha512-EmpJ+VkPZ8RACiB4m+l8TmapmE1W2UvJKDHE+ML/3Ihr9tRKUs3CibfnQTFZC8aSsrxgXagDAN+PgCDDhIyriA==
+lightningcss-linux-x64-gnu@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.22.0.tgz#4798711d1897fe19fccd039640389c5049fb03fb"
+  integrity sha512-grdrhYGRi2KrR+bsXJVI0myRADqyA7ekprGxiuK5QRNkv7kj3Yq1fERDNyzZvjisHwKUi29sYMClscbtl+/Zpw==
 
-lightningcss-win32-x64-msvc@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.20.0.tgz#dcec3f7e03deda94504c93a9a03aec0484a5d5eb"
-  integrity sha512-BRdPvbq7Cc1qxAzp2emqWJHrqsEkf4ggxS29VOnxT7jhkdHKU+a26OVMjvm/OL0NH0ToNOZNAPvHMSexiEgBeA==
+lightningcss-linux-x64-musl@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.22.0.tgz#1d34f5bf428b0d2d4550627e653231d33fda90f9"
+  integrity sha512-t5f90X+iQUtIyR56oXIHMBUyQFX/zwmPt72E6Dane3P8KNGlkijTg2I75XVQS860gNoEFzV7Mm5ArRRA7u5CAQ==
 
-lightningcss@1.20.0:
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/lightningcss/-/lightningcss-1.20.0.tgz#efa36a52feae9b0c8537c8e650a7819f549a4a23"
-  integrity sha512-4bj8aP+Vi+or8Gwq/hknmicr4PmA8D9uL/3qY0N0daX5vYBMYERGI6Y93nzoeRgQMULq+gtrN/FvJYtH0xNN8g==
+lightningcss-win32-x64-msvc@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.22.0.tgz#2fece601ea92298f73008bdf96ed0af8132d318f"
+  integrity sha512-64HTDtOOZE9PUCZJiZZQpyqXBbdby1lnztBccnqh+NtbKxjnGzP92R2ngcgeuqMPecMNqNWxgoWgTGpC+yN5Sw==
+
+lightningcss@1.22.0:
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/lightningcss/-/lightningcss-1.22.0.tgz#76c9a17925e660741858e88b774172cb1923bb4a"
+  integrity sha512-+z0qvwRVzs4XGRXelnWRNwqsXUx8k3bSkbP8vD42kYKSk3z9OM2P3e/gagT7ei/gwh8DTS80LZOFZV6lm8Z8Fg==
   dependencies:
     detect-libc "^1.0.3"
   optionalDependencies:
-    lightningcss-darwin-arm64 "1.20.0"
-    lightningcss-darwin-x64 "1.20.0"
-    lightningcss-linux-arm-gnueabihf "1.20.0"
-    lightningcss-linux-arm64-gnu "1.20.0"
-    lightningcss-linux-arm64-musl "1.20.0"
-    lightningcss-linux-x64-gnu "1.20.0"
-    lightningcss-linux-x64-musl "1.20.0"
-    lightningcss-win32-x64-msvc "1.20.0"
+    lightningcss-darwin-arm64 "1.22.0"
+    lightningcss-darwin-x64 "1.22.0"
+    lightningcss-freebsd-x64 "1.22.0"
+    lightningcss-linux-arm-gnueabihf "1.22.0"
+    lightningcss-linux-arm64-gnu "1.22.0"
+    lightningcss-linux-arm64-musl "1.22.0"
+    lightningcss-linux-x64-gnu "1.22.0"
+    lightningcss-linux-x64-musl "1.22.0"
+    lightningcss-win32-x64-msvc "1.22.0"
 
-mini-css-extract-plugin@2.7.5:
-  version "2.7.5"
-  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.7.5.tgz#afbb344977659ec0f1f6e050c7aea456b121cfc5"
-  integrity sha512-9HaR++0mlgom81s95vvNjxkg52n2b5s//3ZTI1EtzFb98awsLSivs2LMsVqnQ3ay0PVhqWcGNyDaTE961FOcjQ==
+mini-css-extract-plugin@2.7.6:
+  version "2.7.6"
+  resolved "https://registry.yarnpkg.com/mini-css-extract-plugin/-/mini-css-extract-plugin-2.7.6.tgz#282a3d38863fddcd2e0c220aaed5b90bc156564d"
+  integrity sha512-Qk7HcgaPkGG6eD77mLvZS1nmxlao3j+9PkrT9Uc7HAE1id3F41+DdBRYRYkbyfNRGzm8/YWtzhw7nVPmwhqTQw==
   dependencies:
     schema-utils "^4.0.0"
 
@@ -279,15 +286,15 @@ picocolors@^1.0.0:
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
   integrity sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==
 
-postcss-scss@4.0.6:
-  version "4.0.6"
-  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-4.0.6.tgz#5d62a574b950a6ae12f2aa89b60d63d9e4432bfd"
-  integrity sha512-rLDPhJY4z/i4nVFZ27j9GqLxj1pwxE80eAzUNRMXtcpipFYIeowerzBgG3yJhMtObGEXidtIgbUpQ3eLDsf5OQ==
+postcss-scss@4.0.9:
+  version "4.0.9"
+  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-4.0.9.tgz#a03c773cd4c9623cb04ce142a52afcec74806685"
+  integrity sha512-AjKOeiwAitL/MXxQW2DliT28EKukvvbEWx3LBmJIRN8KfBGZbRTxNYW0kSqi1COiTZ57nZ9NW06S6ux//N1c9A==
 
-postcss@8.4.23:
-  version "8.4.23"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.23.tgz#df0aee9ac7c5e53e1075c24a3613496f9e6552ab"
-  integrity sha512-bQ3qMcpF6A/YjR55xtoTr0jGOlnPOKAIMdOWiv0EIT6HVPEaJiJB4NLljSbiHoC2RX7DN5Uvjtpbg1NPdwv1oA==
+postcss@8.4.31:
+  version "8.4.31"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.31.tgz#92b451050a9f914da6755af352bdc0192508656d"
+  integrity sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==
   dependencies:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
@@ -303,10 +310,10 @@ require-from-string@^2.0.2:
   resolved "https://registry.yarnpkg.com/require-from-string/-/require-from-string-2.0.2.tgz#89a7fdd938261267318eafe14f9c32e598c36909"
   integrity sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==
 
-schema-utils@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-4.0.1.tgz#eb2d042df8b01f4b5c276a2dfd41ba0faab72e8d"
-  integrity sha512-lELhBAAly9NowEsX0yZBlw9ahZG+sK/1RJ21EpzdYHKEs13Vku3LJ+MIPhh4sMs0oCCeufZQEQbMekiA4vuVIQ==
+schema-utils@4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/schema-utils/-/schema-utils-4.2.0.tgz#70d7c93e153a273a805801882ebd3bff20d89c8b"
+  integrity sha512-L0jRsrPpjdckP3oPug3/VxNKt2trR8TcabrM6FOAAlvC/9Phcmm+cuAgTlxBqdBR1WJx7Naj9WHw+aOmheSVbw==
   dependencies:
     "@types/json-schema" "^7.0.9"
     ajv "^8.9.0"
