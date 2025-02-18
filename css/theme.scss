@@ -19,7 +19,7 @@
     --hero-button-block-background: var(--lighter-gray);
 
     --hero-button-primary-border-color: var(--color-primary);
-    --hero-buttom-primary-background: var(--color-primary);
+    --hero-button-primary-background: var(--color-primary);
     --hero-button-secondary-color: var(--color-primary);
     --hero-button-secondary-border-color: var(--color-primary);
 
@@ -96,7 +96,7 @@
     padding: 0 !important;
     margin-bottom: 1em;
 
-    @media (--viewport-large) {
+    @media (min-width: 1024px) {
         position: relative;
         float: right;
         width: 40%;
