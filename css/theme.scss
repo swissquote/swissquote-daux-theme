@@ -50,7 +50,7 @@
     --hero-button-secondary-border-color: #fff;
 
     --search-field-color: #555;
-    --search-field-border-color:#0b044a;
+    --search-field-border-color: #0b044a;
     --search-field-background: #323138;
 }
 
@@ -63,7 +63,7 @@
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
 }
 
-@media (--viewport-large) {
+@media (min-width: 850px) {
     .Brand {
         text-align: center;
     }
@@ -104,23 +104,23 @@
         margin-left: 2rem;
         z-index: 10;
     }
+}
 
-    &__title {
-        margin: 0 !important;
-        padding: 0.5rem 1rem;
-        font-weight: bold;
-        color: #fff;
-        font-family: var(--font-family-text);
-        font-size: var(--type-size-5);
-        background: var(--color-primary-light);
-        border-bottom-width: 0;
-        border-top-left-radius: calc(var(--border-radius) - 1px);
-        border-top-right-radius: calc(var(--border-radius) - 1px);
-    }
+.TableOfContentsContainer__title {
+    margin: 0 !important;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: #fff;
+    font-family: var(--font-family-text);
+    font-size: var(--type-size-5);
+    background: var(--color-primary-light);
+    border-bottom-width: 0;
+    border-top-left-radius: calc(var(--border-radius) - 1px);
+    border-top-right-radius: calc(var(--border-radius) - 1px);
+}
 
-    &__content {
-        border: none;
-    }
+.TableOfContentsContainer__content {
+    border: none;
 }
 
 .TableOfContents {
@@ -188,8 +188,8 @@
     position: absolute;
     top: 0;
     right: 0;
+}
 
-    &__field {
-        border: 1px solid var(--lighter-gray);
-    }
+.Navbar .Search__field {
+    border: 1px solid var(--lighter-gray);
 }
