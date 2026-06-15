@@ -75,119 +75,119 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swissquote/crafty-commons-gulp@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/crafty-commons-gulp@npm:1.30.0"
+"@swissquote/crafty-commons-gulp@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/crafty-commons-gulp@npm:1.30.1"
   dependencies:
-    "@swissquote/crafty-commons": "npm:1.30.0"
+    "@swissquote/crafty-commons": "npm:1.30.1"
   peerDependencies:
-    "@swissquote/crafty": 1.30.0
-  checksum: 10c0/5e5c7d928b7189e288bacc76ac9f8987ce2fab21b14425afdcf164fc5d42fd8bbae49814a08c76cd80c78dc3269623e106fb1ed72159b563d1d0aa339081976e
+    "@swissquote/crafty": 1.30.1
+  checksum: 10c0/35d2d732a557b6c9b6d8f27016931058ee8d0176f8cd99e079c8d3d348bedfd3738f104939bce32033f0c9531333bb38a8634776982305c86aaccb321f675d30
   languageName: node
   linkType: hard
 
-"@swissquote/crafty-commons@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/crafty-commons@npm:1.30.0"
+"@swissquote/crafty-commons@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/crafty-commons@npm:1.30.1"
   dependencies:
     caniuse-lite: "npm:^1.0.30001702"
-  checksum: 10c0/7aec63f862c62f9ba4bd5d55f23d81d606db784e3d370fe4e73602af15838f188f8304e2f009f56d56f8ed912125b9cfe2f682b377ffea7ba8b7487337136a19
+  checksum: 10c0/c5cad364ec2d19c2a2c372b16be512a0e1f761634393d11fbdcb073dc2103857a78e337808bd256ee9541a912c5c27b3ee1b2821b82bc066cd47865c897827e4
   languageName: node
   linkType: hard
 
-"@swissquote/crafty-preset-postcss@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/crafty-preset-postcss@npm:1.30.0"
+"@swissquote/crafty-preset-postcss@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/crafty-preset-postcss@npm:1.30.1"
   dependencies:
     "@babel/code-frame": "npm:7.29.7"
-    "@swissquote/crafty": "npm:1.30.0"
-    "@swissquote/crafty-commons": "npm:1.30.0"
-    "@swissquote/crafty-commons-gulp": "npm:1.30.0"
-    "@swissquote/crafty-preset-stylelint": "npm:1.30.0"
-    "@swissquote/postcss-swissquote-preset": "npm:1.30.0"
+    "@swissquote/crafty": "npm:1.30.1"
+    "@swissquote/crafty-commons": "npm:1.30.1"
+    "@swissquote/crafty-commons-gulp": "npm:1.30.1"
+    "@swissquote/crafty-preset-stylelint": "npm:1.30.1"
+    "@swissquote/postcss-swissquote-preset": "npm:1.30.1"
     mini-css-extract-plugin: "npm:2.10.2"
     postcss: "npm:8.5.15"
     postcss-scss: "npm:4.0.9"
     schema-utils: "npm:4.3.3"
   peerDependencies:
-    "@swissquote/stylelint-config-swissquote": 1.30.0
-  checksum: 10c0/b203296c1ce5d1047329cb2c906a1b79d04b38f455a13ca7e780b9816ff662da2fcba6708bc4cec9d5fce09584edaec4dbd3651ba8be8527e7c6622765132546
+    "@swissquote/stylelint-config-swissquote": 1.30.1
+  checksum: 10c0/f8ead09afb2bd1ac483c6e1bd93d93e742a254e7277928ee26df239edfe7e4783f7e1bb2824ddcc9e5e3e77d119d6da1ca010f542bf686d38d75990395838503
   languageName: node
   linkType: hard
 
-"@swissquote/crafty-preset-prettier@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/crafty-preset-prettier@npm:1.30.0"
-  checksum: 10c0/fef84aa05b83e915bb02bf6bf6bc0f7e547399cbb37baff0fa9b766432fa4816c4418287f08bb237cd80a304c6538783b0c75610d6301b7661b527d93cbb23ce
+"@swissquote/crafty-preset-prettier@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/crafty-preset-prettier@npm:1.30.1"
+  checksum: 10c0/54660eacf53faede7daa161fa2ebbd9ec47776bd0d3d4ff2317d248557ac27b4f5d98af090f12d549ffa5edd3a68907fdf703f2a987ac3ea111b07170987f36a
   languageName: node
   linkType: hard
 
-"@swissquote/crafty-preset-stylelint@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/crafty-preset-stylelint@npm:1.30.0"
+"@swissquote/crafty-preset-stylelint@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/crafty-preset-stylelint@npm:1.30.1"
   dependencies:
-    "@swissquote/crafty": "npm:1.30.0"
-    "@swissquote/crafty-commons": "npm:1.30.0"
-    "@swissquote/crafty-commons-gulp": "npm:1.30.0"
-    "@swissquote/crafty-preset-prettier": "npm:1.30.0"
-    "@swissquote/stylelint-config-swissquote": "npm:1.30.0"
+    "@swissquote/crafty": "npm:1.30.1"
+    "@swissquote/crafty-commons": "npm:1.30.1"
+    "@swissquote/crafty-commons-gulp": "npm:1.30.1"
+    "@swissquote/crafty-preset-prettier": "npm:1.30.1"
+    "@swissquote/stylelint-config-swissquote": "npm:1.30.1"
     postcss: "npm:8.5.15"
     postcss-scss: "npm:4.0.9"
-  checksum: 10c0/c8992b9de10ac09cae9f3ed87ecc7ec89612475b4c33635acfc0ca168da5148674f8473a3091a0f70f55d103cf7dee33cb1d3152eb3a3608f5406e7416e86e7a
+  checksum: 10c0/7aad4aa07364ec96bfb6aabee3fa5d45d08e68b17d48c847fa06aeda4f8553fc6905b2dfa597be08278e2852d23b5ea1da1e770b9ae6ef948c974e0e6d775985
   languageName: node
   linkType: hard
 
-"@swissquote/crafty-runner-gulp@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/crafty-runner-gulp@npm:1.30.0"
+"@swissquote/crafty-runner-gulp@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/crafty-runner-gulp@npm:1.30.1"
   dependencies:
-    "@swissquote/crafty": "npm:1.30.0"
-    "@swissquote/crafty-commons": "npm:1.30.0"
-    "@swissquote/crafty-commons-gulp": "npm:1.30.0"
-  checksum: 10c0/0bc0595f83b2af2e08156c3be9efb33d4210795fca0c96b5085fc0177cd61a6283c53b3820d3a02ee3bb03d818bca4cfa8018085abd82bef0fb03e53a4214f14
+    "@swissquote/crafty": "npm:1.30.1"
+    "@swissquote/crafty-commons": "npm:1.30.1"
+    "@swissquote/crafty-commons-gulp": "npm:1.30.1"
+  checksum: 10c0/939a58426ade99326b26811789cec6d9b468e880ec40185e8390e541ba571ef4012f5b066bfeb929d46591dcf24b352dc9a0c6a525d8c83e94e7a07f9e71def1
   languageName: node
   linkType: hard
 
-"@swissquote/crafty@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/crafty@npm:1.30.0"
+"@swissquote/crafty@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/crafty@npm:1.30.1"
   dependencies:
-    "@swissquote/crafty-commons": "npm:1.30.0"
+    "@swissquote/crafty-commons": "npm:1.30.1"
     fsevents: "npm:~2.3.3"
   dependenciesMeta:
     fsevents:
       optional: true
   bin:
     crafty: src/bin.cjs
-  checksum: 10c0/4ad9c9be71e5277f2773ec0468e03e9475568bde4382c1c53f8206d06d92e099283cd983f08b21194122f03d43f887f8303796d4df8c05df14265bb7e33f5f73
+  checksum: 10c0/8d7747ab786dd62b9092197e5e41ea2e8944daf6e6f9d67b0cd35b89166b146d39379add9bb1ccf1f47928ae36ad16b39d46f5a0e632f7399950023b319f3a7b
   languageName: node
   linkType: hard
 
-"@swissquote/postcss-swissquote-preset@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/postcss-swissquote-preset@npm:1.30.0"
+"@swissquote/postcss-swissquote-preset@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/postcss-swissquote-preset@npm:1.30.1"
   dependencies:
-    "@swissquote/crafty-commons": "npm:1.30.0"
+    "@swissquote/crafty-commons": "npm:1.30.1"
     caniuse-lite: "npm:^1.0.30001702"
     lightningcss: "npm:1.32.0"
     postcss: "npm:8.5.15"
-  checksum: 10c0/925f00fb466dbfbfd694c4ca6b3af044b22bbb8a28d35b454f7ed5dbb1d20b8c8bf933c075f60480605a2198ed6fbbb2bdedc37ff66c935948b9839164fcff19
+  checksum: 10c0/d45bab05ce75bea44a4166c0d63c74478e5424c0a3b3f326fb07987cb673c1c4422f8d83b7cdc7d091ecc70a5ccf7bd71e4bb49c9f8d9b77c080535de87378d9
   languageName: node
   linkType: hard
 
-"@swissquote/stylelint-config-swissquote@npm:1.30.0":
-  version: 1.30.0
-  resolution: "@swissquote/stylelint-config-swissquote@npm:1.30.0"
+"@swissquote/stylelint-config-swissquote@npm:1.30.1":
+  version: 1.30.1
+  resolution: "@swissquote/stylelint-config-swissquote@npm:1.30.1"
   dependencies:
     "@babel/code-frame": "npm:7.29.7"
-    "@swissquote/crafty": "npm:1.30.0"
+    "@swissquote/crafty": "npm:1.30.1"
     caniuse-lite: "npm:^1.0.30001702"
     postcss-scss: "npm:4.0.9"
   peerDependencies:
-    "@swissquote/crafty-commons": 1.30.0
+    "@swissquote/crafty-commons": 1.30.1
     postcss: ^8.0.0
     stylelint: ^16.0.0
-  checksum: 10c0/64752d7b07ca8af5a1423e7f3c10cd264b4069e9730f579bbea72f9a6ebbff34f179254c41b8aabdeff9c6142bc23713fecfc533e9c5414cf895827568dd94e4
+  checksum: 10c0/05058aa8d8a10c337541269ffb93822665ef0c665eef5da02c2f767197f9acf30d2f10d13c182038e71cf2fdc3fd2e1d5d0b54e65d923ed0c1730e7c04e71b4e
   languageName: node
   linkType: hard
 
@@ -1020,9 +1020,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@swissquote/crafty": "npm:1.30.0"
-    "@swissquote/crafty-preset-postcss": "npm:1.30.0"
-    "@swissquote/crafty-runner-gulp": "npm:1.30.0"
+    "@swissquote/crafty": "npm:1.30.1"
+    "@swissquote/crafty-preset-postcss": "npm:1.30.1"
+    "@swissquote/crafty-runner-gulp": "npm:1.30.1"
   languageName: unknown
   linkType: soft
 
